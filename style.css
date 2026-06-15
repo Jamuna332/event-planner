@@ -1,0 +1,109 @@
+
+*{ margin:0;
+     padding:0; 
+     box-sizing:border-box; 
+     font-family:Arial, sans-serif; 
+    } 
+
+nav{
+     display:flex; 
+     justify-content:space-between;
+     align-items:center; 
+     padding:10px 60px; 
+    }
+
+ nav ul{
+     display:flex;
+      list-style:none; 
+      gap:30px; 
+    } 
+
+ nav ul li a{ 
+    text-decoration:none;
+     color:black;
+     }
+
+ .call-btn{
+     background:#b11257;
+      color:white; 
+      border:none; 
+      padding:10px 20px;
+       border-radius:5px;
+     }
+
+      .hero{
+  position:relative;
+          height:90vh;
+           background:url("wedding 2.png");
+            background-size:cover;
+             background-position: right center ;
+              display:flex; 
+              justify-content:space-between;
+               align-items:center;
+                padding:0 80px;
+             }
+             
+                 .content{ 
+                    position:relative; 
+                    width:50%;
+                     z-index:1; 
+                } 
+                .content h1{ 
+                    font-size:60px; 
+                    color:#111; 
+                }
+                 .content span{ 
+                    color:#b11257;
+                 } 
+                 .content p{
+                     margin:20px 0; 
+                     font-size:20px;
+                     }
+                      .content button{
+                         background:#b11257;
+                          color:white;
+                           border:none;
+                            padding:15px 30px;
+                             border-radius:5px;
+                              cursor:pointer; 
+                            }
+                             .stats{
+                                 display:flex; 
+                                 gap:50px;
+                                  margin-top:20px;
+                                 } 
+                                 .booking-form{
+                                     position:relative;
+                                      z-index:1;
+                                       width:220px;
+                                        background:white;
+                                         padding:15px;
+                                          border-radius:10px;
+                                         } 
+                                         .booking-form h2{
+                                             text-align:center;
+                                              color:#b11257; 
+                                              margin-bottom:20px;
+                                             }
+                                              .booking-form input, .booking-form select, .booking-form textarea{
+                                                 width:100%;
+                                                  padding:8px;
+                                                   margin:5px 0; 
+                                                   border:1px solid #ccc;
+                                                 }
+
+                                                  .booking-form button{
+                                                     width:100%;
+                                                      background:#b11257; 
+                                                      color:white;
+                                                       border:none;
+                                                        padding:12px;
+                                                         margin-top:10px;
+                                                         }
+
+ .logo {
+     position: fixed;
+      top: 10px; 
+      left: 10px;
+       width: 60px; 
+    }

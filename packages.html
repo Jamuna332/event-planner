@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Packages Section</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#fff5f8;
+    margin:0;
+    padding:0;
+}
+
+/* Section Title */
+.packages-section{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.packages-section h2{
+    font-size:35px;
+    color:#b1125c;
+    margin-bottom:10px;
+}
+
+.packages-section p{
+    color:#555;
+    margin-bottom:40px;
+}
+
+/* Cards Layout */
+.packages-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+/* Package Card */
+.package-card{
+    background:white;
+    width:280px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.package-card:hover{
+    transform:translateY(-8px);
+}
+
+/* Header */
+.package-header{
+    background:#b1125c;
+    color:white;
+    padding:20px;
+    font-size:22px;
+}
+
+/* Price */
+.price{
+    font-size:28px;
+    margin:15px 0;
+    color:#333;
+    font-weight:bold;
+}
+
+/* Features */
+.features{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.features li{
+    padding:8px 0;
+    border-bottom:1px solid #eee;
+    color:#555;
+}
+
+/* Button */
+.btn{
+    display:inline-block;
+    margin:20px 0;
+    padding:10px 20px;
+    background:#b1125c;
+    color:white;
+    text-decoration:none;
+    border-radius:25px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#7d0d3f;
+}
+</style>
+</head>
+
+<body>
+
+<section class="packages-section">
+    <h2>Our Wedding Packages</h2>
+    <p>Choose the perfect plan for your special day</p>
+
+    <div class="packages-container">
+
+        <!-- Basic Package -->
+        <div class="package-card">
+            <div class="package-header">Basic</div>
+            <div class="price">Rs. 50,000</div>
+            <ul class="features">
+                <li>Venue Decoration</li>
+                <li>Basic Photography</li>
+                <li>Small Stage Setup</li>
+                <li>1 Event Coordinator</li>
+            </ul>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+
+        <!-- Standard Package -->
+        <div class="package-card">
+            <div class="package-header">Standard</div>
+            <div class="price">Rs. 1,20,000</div>
+            <ul class="features">
+                <li>Premium Decoration</li>
+                <li>Professional Photography</li>
+                <li>DJ & Music Setup</li>
+                <li>Full Event Management</li>
+            </ul>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+
+        <!-- Premium Package -->
+        <div class="package-card">
+            <div class="package-header">Premium</div>
+            <div class="price">Rs. 2,50,000</div>
+            <ul class="features">
+                <li>Luxury Decoration</li>
+                <li>HD Photography & Videography</li>
+                <li>DJ, Lighting & Smoke Effects</li>
+                <li>Full Wedding Planning Team</li>
+            </ul>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>

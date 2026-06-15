@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wedding Gallery</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#fff5f8;
+        }
+
+        .gallery{
+            padding:60px 8%;
+            text-align:center;
+        }
+
+        .gallery h1{
+            font-size:60px;
+            color:#d63384;
+            margin-bottom:10px;
+        }
+
+        .gallery p{
+            font-size:18px;
+            color:#555;
+            margin-bottom:40px;
+        }
+
+        .gallery-container{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:25px;
+        }
+
+        .gallery-item{
+            overflow:hidden;
+            border-radius:20px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .gallery-item img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+            transition:0.5s;
+        }
+
+        .gallery-item img:hover{
+            transform:scale(1.1);
+        }
+
+        .gallery-btn{
+            margin-top:40px;
+            padding:12px 30px;
+            border:none;
+            border-radius:30px;
+            background:#d63384;
+            color:white;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        .gallery-btn:hover{
+            background:#b8256f;
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="gallery">
+
+    <h1>Our Gallery</h1>
+
+    <p>
+        Explore beautiful wedding moments and unforgettable celebrations.
+    </p>
+
+    <div class="gallery-container">
+
+        <div class="gallery-item">
+            <img src="gallery1.jpg" alt="Wedding Image">
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery2.jpg" alt="Wedding Image">
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery3.jpg" alt="Wedding Image">
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery4.jpg" alt="Wedding Image">
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery5.jpg" alt="Wedding Image">
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery6.jpg" alt="Wedding Image">
+        </div>
+
+    </div>
+
+    <button class="gallery-btn">View More</button>
+
+</section>
+
+</body>
+</html>
